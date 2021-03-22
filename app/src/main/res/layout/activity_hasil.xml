@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/ic_launcher_background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/kosong1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Skala BMI"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF" />
+
+    <FrameLayout
+        android:id="@+id/abang"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/merah" >
+
+        <TextView
+            android:id="@+id/textView05"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="@string/lime"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/putih" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/orange"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/MerahOrange" >
+
+        <TextView
+            android:id="@+id/textView04"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="@string/empat"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/putih" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/semuijo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/Kuning" >
+
+        <TextView
+            android:id="@+id/textView03"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="@string/tiga"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/putih" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/ijo"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/hijau" >
+
+        <TextView
+            android:id="@+id/textView02"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="@string/dua"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/putih" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/biru"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/birumuda" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="@string/satu"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/putih" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Berat badan anda termasuk :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#fff" />
+
+
+    <FrameLayout
+        android:id="@+id/abang1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@color/merah" >
+
+        <TextView
+            android:id="@+id/hasilakhir"
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/putih" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <FrameLayout
+        android:id="@+id/abang2"
+        android:layout_width="match_parent"
+        android:layout_height="259dp"
+        android:layout_weight="0.88"
+        android:background="@color/merah">
+
+        <TextView
+            android:id="@+id/keterangan"
+            android:layout_width="305dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/putih" />
+
+    </FrameLayout>
+
+      <Button
+        android:id="@+id/buttonPenyakit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="15dp"
+        android:background="#fff"
+        android:text="Penyakit" />
+    <Button
+        android:id="@+id/buttonTips"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_marginTop="10dp"
+
+        android:background="#fff"
+        android:text="Tips" />
+
+</LinearLayout>

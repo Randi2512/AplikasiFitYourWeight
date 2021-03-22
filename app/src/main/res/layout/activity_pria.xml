@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A8080"
+    android:layout_gravity="center_vertical"
+    tools:context=".Pria">
+
+    <ImageView
+        android:layout_width="424dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="@drawable/head"
+        android:src="@drawable/berat" />
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tinggi Badan ( cm )"
+            android:textColor="@color/putih" />
+
+        <EditText
+            android:id="@+id/tinggi_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/InputTinggibadan"
+            android:inputType="numberDecimal" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berat Badan ( kg )"
+            android:textColor="@color/putih" />
+
+        <EditText
+            android:id="@+id/berat_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/InputBeratBadan"
+            android:inputType="number|numberDecimal" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_hitung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hitung"
+            android:background="@drawable/stylebutton"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil "
+            android:textColor="@color/putih" />
+
+        <EditText
+            android:id="@+id/hasil_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_lihathasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lihat Hasil"
+            android:background="@drawable/stylebutton"/>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/buttonTips"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/btnproses"
+        android:background="@drawable/stylebutton"
+        android:padding="10dp"
+        android:text="Tips"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+
+
+
+</LinearLayout>

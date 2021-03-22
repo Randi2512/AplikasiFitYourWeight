@@ -1,0 +1,40 @@
+<resources>;
+
+    <color name="Kuning">#a2b314</color>;
+    <color name="merah">#990000</color>;
+    <color name="MerahOrange">#d25e09</color>;
+
+    <color name="hijau">#1fb314</color>;
+    <color name="birumuda">#000fff</color>;
+    ;
+    <color name="putih">#ffffff</color>;
+
+
+
+    <string-array name="android_layout_arrays">
+        <item>Pria</item>
+        <item>Wanita</item>
+    </string-array>
+
+    ;
+    <string name="satu">   BMI  kecil dari 18.5           --> Badan kurang Ideal</string>;
+    <string name="dua">   BMI 18.5 - 22.9  --> Berat badan Ideal</string>
+
+    <string name="tiga">   BMI 23 - 24.9      --> Mendekati Obesitas</string>
+    <string name="empat">   BMI 25 - 29.9      --> Diambang batas Obesitas</string>
+    <string name="lime">   BMI >; 30              --> Melebihi Obesitas</string>
+    <string name="InputTinggibadan">Inputkan Tinggi Badan (cm)</string>
+
+
+    <string name="InputBeratBadan">Inputkan Berat Badan (kg)</string>
+    <string name="errorButton_hitung">OK</string>
+
+    <string name="errorTitle_hitung">Error !</string>
+    <string name="errorMessage_hitung">Data kurang lengkap !</string>
+    <string name="errorButton_hasil">OK</string>
+
+    <string name="errorTitle_hasil">Error !</string>
+    <string name="errorMessage_hasil">hasil masih kosong</string>
+
+
+</resources>

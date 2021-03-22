@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1A8080"
+    android:layout_gravity="center_vertical"
+    tools:context=".Pria">
+
+    <ImageView
+        android:layout_width="424dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="@drawable/head"
+        android:src="@drawable/tinggi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="Berapa Berat Badan Anda?(cm)"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:id="@+id/txtberatbadan"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtbb"
+        android:id="@+id/edtbb"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:text="PILIH JENIS KELAMIN"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:id="@+id/txtjekel"
+        />
+    <Spinner
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+android:entries="@array/android_layout_arrays"
+        android:id="@+id/spinner" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HITUNG"
+        android:layout_below="@id/edtbb"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/stylebutton"
+        android:id="@+id/button"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tinggi Badan Ideal Anda Adalah : "
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/output"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
+
+
+
+
+
+
+</LinearLayout>
